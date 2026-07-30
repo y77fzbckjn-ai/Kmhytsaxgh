@@ -328,7 +328,7 @@ local function applyFpsBoost()
             centerLabel.Parent = bgFrame
             
             local textConstraint = Instance.new("UITextSizeConstraint")
-            textConstraint.MaxTextSize = 50
+            textConstraint.MaxTextSize = 25
             textConstraint.Parent = centerLabel
             
             local centerStroke = Instance.new("UIStroke")
