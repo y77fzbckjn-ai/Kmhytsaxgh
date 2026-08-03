@@ -1,6 +1,14 @@
 -- Grow a Garden 2 Auto Harvester & Seller by Antigravity
 -- (Optimized: Safe Ultra Potato + Freeze + Safe Brutal Whitelist + ANTI-AFK + BLACK SCREEN + MUTE + INSTANT MAX BATCH HARVEST + GARDEN MONITOR + SAVE CONFIG SAFE LOAD + MOBILE AUTO SCALE + AUTO KICK WEATHER + CUSTOM MINIMIZE LOGO + MUTATION FILTER)
 
+
+
+task.wait(60)  -- waits 60 seconds first
+
+-- Your actual script code goes here
+print("This will run after 60 seconds")
+
+
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
